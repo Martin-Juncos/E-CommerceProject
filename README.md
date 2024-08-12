@@ -1,0 +1,10 @@
+    JavaScript
+    React
+    Redux
+    Bootstrap
+    Cloudinary
+    Auth0
+    MercadoPago
+    MongoDB
+    Node.js
+    Express

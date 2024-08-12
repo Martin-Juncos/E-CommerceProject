@@ -1,0 +1,149 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+    "g"
+    "h"
+    "i"
+    "j";
+  background-color: red;
+  width: 100%;
+  margin: 1em;
+  padding: 1em;
+  gap: 1em;
+  background-color: transparent;
+  border: 1px solid rgba(225, 225, 225, 0.4);
+  border-right: 1px solid rgba(225, 225, 225, 0.2);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.staricon {
+  width: 20px;
+}
+
+@media screen and (min-width: 960px) {
+  .card {
+    background: rgb(255 255 255 / 25%);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 70px);
+    grid-template-areas:
+      "a a a"
+      "b c g"
+      "b d g"
+      "b e g"
+      "b i g"
+      'b f j';
+    font-size: 1.5em;
+    align-items: center;
+  }
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.imgContainer {
+  width: 90%;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  grid-area: a;
+}
+
+.cardimg {
+  grid-area: b;
+  align-items: center;
+}
+
+.price {
+  grid-area: c;
+  font-size: xx-large;
+}
+
+.season {
+  grid-area: d;
+}
+
+.brand {
+  grid-area: e;
+}
+
+.model {
+  grid-area: f;
+}
+
+.sizes {
+  grid-area: g;
+  display: grid;
+  row-gap: 1em ;
+  background-color: transparent;
+  border: 1px solid rgba(225, 225, 225, 0.4);
+  border-right: 1px solid rgba(225, 225, 225, 0.2);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 1em;
+
+}
+
+.reviews {
+  grid-area: i;
+}
+
+.button {
+  grid-area: j;
+  background-color: transparent;
+  border: 1px solid rgba(225, 225, 225, 0.4);
+  border-right: 1px solid rgba(225, 225, 225, 0.2);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 1em 0;
+  width: 300px;
+}
+
+.starContainer {
+  display: flex;
+  gap: .2em;
+}
+
+/* .button:hover {
+  background-color: red;
+} */
+
+.button:active {
+  /* background-color: green; */
+  transform: scale(.9);
+}
+
+.cantidad {
+  display: flex;
+  gap: 1em;
+}
+
+.talla {
+  display: flex;
+  gap: 1em;
+}

@@ -1,0 +1,49 @@
+
+
+
+.filterHeader{
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+}
+
+.buttonFilterReset,
+.buttonFilter{
+  width: 200px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2em;
+  padding: 1em;
+  background-color: transparent;
+  border: 1px solid rgba(225,225,225, 0.4);
+  border-right: 1px solid rgba(225,225,225, 0.2);
+  border-bottom: 1px solid rgba(225,225,225, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  transition: .5s;
+}
+.buttonFilter:hover {
+  transform: translateX(20px);
+}
+
+.sideBarHeader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7em;
+  text-transform: uppercase;
+}
+
+.sideBarHeader div:nth-child(1),
+.sideBarHeader div:nth-child(2),
+.sideBarHeader div:nth-child(3),
+.sideBarHeader div:nth-child(4),
+.sideBarHeader div:nth-child(5) {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.buttonFilterReset {
+  width: 100%;
+}

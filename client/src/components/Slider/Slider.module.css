@@ -1,0 +1,22 @@
+.image {
+    max-width: 500px;
+    max-height: 250px;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+}
+
+.carouserButton {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.button {
+    color: white;
+    background-color: #eb118a;
+    padding: 8px;
+    margin: 0 5px;
+}

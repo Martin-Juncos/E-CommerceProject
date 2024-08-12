@@ -1,0 +1,15 @@
+body {
+    display: block !important;
+}
+
+.container {
+    height: 79vh;
+    display: flex;
+    margin: 1.5em;
+}
+
+.user {
+    display: inline-block;
+    border: 1px black solid;
+    margin: 5px;
+}
